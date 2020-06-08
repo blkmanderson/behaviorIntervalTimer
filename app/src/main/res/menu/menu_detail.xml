@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.intervaltimer.MainActivity">
+    <item
+        android:id="@+id/edit"
+        android:orderInCategory="100"
+        android:title="Edit"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/delete"
+        android:orderInCategory="100"
+        android:title="DELETE ALL"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/toggleservice"
+        app:actionViewClass="android.widget.Switch"
+        app:showAsAction="always"
+        android:title="Vibration"/>
+
+</menu>

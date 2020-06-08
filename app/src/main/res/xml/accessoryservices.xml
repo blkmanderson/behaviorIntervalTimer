@@ -1,0 +1,21 @@
+
+<resources>
+    <application name="com.example.intervalTimer">
+        <serviceProfile
+            id="/intervaltimer/messages"
+            name="Message"
+            role="provider" version="1.0"
+            serviceImpl="com.example.intervaltimer.ProviderService">
+
+            <supportedTransports>
+                <transport type="TRANSPORT_BT" />
+                <transport type="TRANSPORT_WIFI" />
+            </supportedTransports>
+
+            <supportedFeatures>
+                <feature type="message"/>
+            </supportedFeatures>
+        </serviceProfile>
+
+    </application>
+</resources>
